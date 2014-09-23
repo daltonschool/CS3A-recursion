@@ -7,7 +7,7 @@ This assignment should give you practice writing recursive methods in java
 at terminal, type 
 
 ```
-git clone git@github.com/daltonschool/recursion.git
+git clone https://github.com/daltonschool/recursion.git
 ```
 You now have a folder called recursion and can do your work in there.
 please put your name at the top of the appropriate files under @author.
