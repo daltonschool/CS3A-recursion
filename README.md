@@ -29,7 +29,7 @@ We will test your methods thoroughly, and you will not receive points for method
 
 We will add 65 to your score as a curve.  The maximum score will be 95.
 
-As long as you submit by the deadline.  You may resubmit this assignment without penalty until 10/3 at 3:15pm.
+As long as you submit by the deadline.  You may resubmit this assignment without penalty until ~~10/3~~ 10/6 at 3:15pm.
 
 ## Tracking
 When you are done working on a function it is a good idea to save a checkpoint in your git repository.  To do this, enter
