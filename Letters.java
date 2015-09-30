@@ -122,7 +122,7 @@ public class Letters {
 	 * @return a new array which is a subset of a from i to the end
 	 */
 	static char[] slice(char[] a, int i) {
-		return slice(a, i, 0);
+		return slice(a, i, a.length);
 	}
 
 	/**
@@ -131,6 +131,6 @@ public class Letters {
 	 * @return a new array which is a subset that removes the first item
 	 */
 	static char[] slice(char[] a) {
-		return slice(a, 1, 0);
+		return slice(a, 1, a.length);
 	}
 }
