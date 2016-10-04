@@ -1,5 +1,5 @@
 /* 
- * Calculator (7pt)
+ * #C1 Calculator (7pt)
  * implement a calculator that takes a char[] and returns a value 
  * 
  * Should handle +, /, -, *, e, and m 
