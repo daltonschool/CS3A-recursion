@@ -23,17 +23,19 @@ java Numbers
 You may need to compile multiple files before you can run.
 
 ## Grading
-This assignment is due by 10/2 at 3:15pm on the moodle.  Please tar the folder together and submit that tar.
+This assignment is due by 10/16 at 9pm on canvas.  Please tar the folder together and submit that tar.
+
+You must track each completed function and test data in your repository to receive full credit.  See the section below on tracking.
 
 We will test your methods thoroughly, and you will not receive points for methods which fail.
 
-We will add 65 to your score as a curve.  The maximum score will be 95.
+We will add 70 to your score as a curve.  The maximum score will be 95.
 
-As long as you submit by the deadline.  You may resubmit this assignment without penalty until 10/16 at 3:15pm.
+You may resubmit this assignment without penalty until 10/30 at 9pm.
 
 ## Tracking
-When you are done working on a function it is a good idea to save a checkpoint in your git repository.  To do this, enter
+When you are done working on a function (you have written and tested it), you should commit that code to your git repository.  To do this, add the appropriate files to the tracking area, that then write a commit message
 ```
-git commit -a -m "a short message about your progress"
+git commit -m "wrote and tested code for #N1"
 ```
-Often that message is about the contents you have just added, for instance "completed fibonacci function" or "added tests for reverse"
+Your message MUST include the appropriate # code, which can be found in the documentation next to every function.  You may commit multiple times on the same # code, we will look at the last one.
