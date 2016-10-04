@@ -9,7 +9,7 @@
 public class Numbers {
 	
 	/*
-	 * Factorial (0pt)
+	 * #N0 Factorial (0pt)
 	 * F(n ) = n * F(n-1)     (if n > 0)
 	 * F(0) = 1
 	 */
@@ -19,7 +19,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Summation (1pt)
+	 * #N1 Summation (1pt)
 	 * S(n ) = n + S(n-1)     (if n > 0)
 	 * S(0) = 0
 	*/
@@ -28,7 +28,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Fibonacci (1pt)
+	 * #N2 Fibonacci (1pt)
 	 * F(0) = 0
 	 * F(1) = 1
 	 * F(n ) = F(n-1) + F(n-2) (if n > 0)
@@ -38,7 +38,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Sum of a number's digits (1pt)
+	 * #N3 Sum of a number's digits (1pt)
 	 * S(n ) = n					(if n < 10)
 	 * S(n ) = S(n/10) + n mod 10   (if n>= 10)
 	*/
@@ -47,7 +47,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Product of a number's digits (1pt)
+	 * #N4 Product of a number's digits (1pt)
 	 * S(n ) = n					(if n < 10)
 	 * S(n ) = S(n/10) * n mod 10   (if n>= 10) 
 	 */
@@ -56,7 +56,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Product of two whole numbers (1pt)
+	 * #N5 Product of two whole numbers (1pt)
 	 * P(a,b) = a + P(a,b-1)        (if b > 0)
 	 * P(a,0) = 0
 	 */
@@ -65,7 +65,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Sum over a range of numbers (1pt)
+	 * #N6 Sum over a range of numbers (1pt)
 	 * S(a,b) = a				(if a = b)
 	 * S(a,b) = b + S(a,b-1)
 	 */
@@ -74,7 +74,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Reverse a number's digits (2pt)
+	 * #N7 Reverse a number's digits (2pt)
 	 * R(n,v) = n + 10 * v				  (if n < 10)
 	 * R(n,v) = R(n/10, 10*v + n mod 10))
 	 * (v begins at 0)
@@ -84,7 +84,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Euclid's Algorithm for GCD (2pt)
+	 * #N8 Euclid's Algorithm for GCD (2pt)
 	 * GCD(x,y) = y                 (if y <= x & x mod y=0)
 	 * GCD(x,y) = GCD(y,x mod y)
 	 */
@@ -93,7 +93,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Compound interest balance (2pt)
+	 * #N9 Compound interest balance (2pt)
 	 * B(p,r,t) = P                (if t = 0)
 	 * B(p,r,t) = (1+r)*B(p,r,t-1)
 	 */
@@ -102,7 +102,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Newton's algorithm for square root (3pt)
+	 * #N10 Newton's algorithm for square root (3pt)
 	 * SR(n,p,e) = e				 (if | e^2 - n | < p)
 	 * SR(n,p,e) = SR(n,p,(e+n/e)/2)
 	 * (e begins at n)
@@ -112,7 +112,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Bisection method for square root (3pt)
+	 * #N11 Bisection method for square root (3pt)
 	 * SR(n,p,h,l) = e				(if | e^2 - n | <= p)
 	 * SR(n,p,h,l) = SR(n,p,e,l)    (if e^2 > n)
 	 * SR(n,p,h,l) = SR(n,p,h,e)    
@@ -123,7 +123,7 @@ public class Numbers {
 	}
 	
 	/*
-	 * Combinations (2pt)
+	 * #N12 Combinations (2pt)
 	 * C(n,k) = n			(if k = 1)
 	 * C(n,k) = 0			(if k > n)
 	 * C(n,k) = 1			(if k = n)
