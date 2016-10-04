@@ -9,7 +9,7 @@
 public class Letters {
 	
 	/*
-	 * Palindrome (2pt)
+	 * #L1 Palindrome (2pt)
 	 * recursion: are the first and last letters the same?
 	 * base case: is the word length <=2?
 	 */
@@ -18,7 +18,7 @@ public class Letters {
 	}
 	
 	/*
-	 * Reverse (2pt)
+	 * #L2 Reverse (2pt)
 	 * R(a, i) = a 			(if i >= |a|/2)
 	 * R(a, i) = R(b, i+1)
 	 * b has the ith and |a|-ith letters swapped  
@@ -28,7 +28,7 @@ public class Letters {
 	}
 
 	/*
-	 * Word count (2pt)
+	 * #L3 Word count (2pt)
 	 * L(a) = 1                 (if |a| = 0)
 	 * L(a) = 1 + L(a[1:])      (if a[0] = ' ')
 	 * L(a) = L(a[1:])
@@ -40,7 +40,7 @@ public class Letters {
 	}
 
 	/*
-	 * Capital count (2pt)
+	 * #L4 Capital count (2pt)
 	 * L(a) = 0                 (if |a| = 0)
 	 * L(a) = 1 + L(a[1:])      (if a[0] is capital)
 	 * L(a) = L(a[1:])
@@ -52,7 +52,7 @@ public class Letters {
 	}
 	
 	/*
-	 * Letter count (2pt)
+	 * #L5 Letter count (2pt)
 	 * L(a,c) = 0                 (if |a| = 0)
 	 * L(a,c) = 1 + L(a[1:], c)   (if a[0] = c)
 	 * L(a,c) = L(a[1:], c)
@@ -64,7 +64,7 @@ public class Letters {
 	}	
 
 	/*
-	 * Contains (3pt)
+	 * #L6 Contains (3pt)
 	 * C(a,s) = false                          (if |a| = 0)
 	 * C(a,s) = true                           (if |s| = 0)
 	 * C(a,s) = C(a[1:],s[1:]) || C(a[1:], s)  (if a[0] = s[0])
@@ -78,7 +78,7 @@ public class Letters {
 
 	
 	/*
-	 * Replace (3pt)
+	 * #L7 Replace (3pt)
 	 * R(a,f,t) = empty 					(if |a| = 0)
 	 * R(a,f,t) = t JOIN R(a[1:], f, t)     (if a[0] = f)
 	 * R(a,f,t) = a[0] JOIN R(a[1:], f, t) 
@@ -91,7 +91,7 @@ public class Letters {
 	}
 	
 	/*
-	 * LetterFrequency (3pt)
+	 * #L8 LetterFrequency (3pt)
 	 * L(a,f,i) ends if i=0, and all values in F divided by |a|
 	 * L(a,f,i) = L(a[1:], f, i+1) and f at letter a[0] increments
 	 * (i starts at |a|)        
