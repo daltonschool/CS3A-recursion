@@ -23,7 +23,7 @@ java Numbers
 You may need to compile multiple files before you can run.
 
 ## Grading
-This assignment is due by 10/16 at 9pm on canvas.  Please tar the folder together and submit that tar.
+This assignment is due by 10/22 at 9pm on classes.  Please tar the folder together and submit that tar.
 
 You must track each completed function and test data in your repository to receive full credit.  See the section below on tracking.
 
@@ -31,7 +31,7 @@ We will test your methods thoroughly, and you will not receive points for method
 
 We will add 70 to your score as a curve.  The maximum score will be 95.
 
-You may resubmit this assignment without penalty until 10/30 at 9pm.
+You may resubmit this assignment for two weeks following the due date.
 
 ## Tracking
 When you are done working on a function (you have written and tested it), you should commit that code to your git repository.  To do this, add the appropriate files to the tracking area, that then write a commit message
